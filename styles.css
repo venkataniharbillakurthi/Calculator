@@ -1,0 +1,76 @@
+body {
+    background-color: #f0f0f0; /* Light mode background */
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#container {
+    background-color: rgba(155, 232, 77, 0.9); /* Light mode container */
+    width: 300px;
+    
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Softer shadow for light mode */
+    backdrop-filter: blur(5px);
+    margin-right: 150px;
+}
+
+#button {
+    width: 90%;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.8); /* Light mode button background */
+    border: 1px solid rgba(0, 0, 0, 0.2); /* Lighter border */
+    border-radius: 10px;
+    font-size: 48px;
+    text-align: right;
+    padding-right: 15px;
+    color: #a2e81f; /* Dark teal text */
+    margin-bottom: 15px;
+    backdrop-filter: blur(5px);
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgba(0, 0, 0, 0.2); /* Lighter border */
+    border-radius: 10px;
+    font-size: 24px;
+    margin: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #000; /* Dark text color */
+    background-color: rgba(240, 240, 240, 0.8); /* Light button background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Softer shadow for light mode */
+    backdrop-filter: blur(5px);
+}
+
+button:hover {
+    transform: scale(1.05);
+    background-color: rgba(200, 200, 200, 0.9); /* Hover effect for buttons */
+}
+
+#clearbtn, #calcbtn, .symbtn {
+    background-color: rgba(117, 212, 15, 0.8); /* Color for special buttons */
+}
+
+#calcbtn {
+    width: calc(100% - 10px);
+    background-color: rgba(117, 212, 15, 0.8); /* Brighter calc button */
+}
+
+button:not(#clearbtn):not(#calcbtn):not(.symbtn) {
+    background-color: rgba(230, 230, 230, 0.8); /* Lighter background for number buttons */
+}
+
+#button {
+    font-size: 36px;
+    color: #00b3a4; /* Dark teal text color for display */
+}
+ 
+img{
+    position: absolute;
+    margin-right: 900px;
+}

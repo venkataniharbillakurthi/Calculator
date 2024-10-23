@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body style="background-image: url('https://img.freepik.com/free-photo/top-view-notebooks-calculator_23-2149103982.jpg?t=st=1729689202~exp=1729692802~hmac=79c9809b214fc8f213fe92fa57d53881ee60204ecf83b2542457addd402a2705&w=826');
+background-attachment: fixed;
+background-size:100%100%;">
+    <center>
+        <h1>Calculator</h1>
+        
+        <div id="container">
+            <br>
+            <input type="text" disabled id="button">
+            
+            <button id="numbtn" onclick="display(1)">1</button>
+            <button id="numbtn" onclick="display(2)">2</button>
+            <button id="numbtn" onclick="display(3)">3</button>
+            <button id="symbtn" onclick="display('+')">+</button>
+
+            <button id="numbtn" onclick="display(4)">4</button>
+            <button id="numbtn" onclick="display(5)">5</button>
+            <button id="numbtn" onclick="display(6)">6</button>
+            <button id="symbtn" onclick="display('-')">-</button>
+
+            <button id="numbtn" onclick="display(7)">7</button>
+            <button id="numbtn" onclick="display(8)">8</button>
+            <button id="numbtn" onclick="display(9)">9</button>
+            <button id="symbtn" onclick="display('*')">*</button>
+
+            <button id="numbtn" onclick="display(0)">0</button>
+            <button id="numbtn" onclick="display('00')">.00</button>
+            <button id="numbtn" onclick="display('000')">.000</button>
+            <button id="symbtn" onclick="display('/')">/</button>
+
+
+            <button id="clearbtn" onclick="clear_screen()">AC</button>
+            <button id="backspacebtn" onclick="backspace()">←</button>
+
+            <button id="calcbtn" onclick="calculate()">=</button>
+
+
+        </div>
+    </center>
+    <img src="./calculator.png" alt="">
+</style=>
+</html>
